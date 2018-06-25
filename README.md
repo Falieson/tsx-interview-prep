@@ -1,5 +1,11 @@
 # TSX Interview Prep
 
+## HOW TO USE
+
+This app is created from [ts-react-app](https://github.com/Falieson/2018-typescript-react-app).
+
+All available commands are found in `./scripts/`, and used with `nps <command>` .
+
 ## Topics
 
 ### JS Globals
@@ -38,7 +44,7 @@ Found at: `src/helpers/examples/`
 
 ### React GraphQL Demos
 
-- [ ] Tic-Tac-Toe game
+- [ ] Tic-Tac-Toe game  `src/components/TicTacToe/README.md`
 - [ ] Minesweeper game
 
 ## Utilities
@@ -47,9 +53,3 @@ Found at: `src/helpers/examples/`
 
 Each time the queAggregator is called in a throttle period the data is aggregated in array.
 When the throttle period is over, all the data in the array is passed as an argument to the callback.
-
-## HOW TO USE
-
-This app is created from [ts-react-app](https://github.com/Falieson/2018-typescript-react-app).
-
-All available commands are found in `./scripts/`, and used with `nps <command>` .
