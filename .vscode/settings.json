@@ -1,0 +1,10 @@
+{
+  "todohighlight.keywords": [
+    {
+        "text": "INSTRUCTOR:",
+        "color": "#2500FF",
+        "backgroundColor": "#EEE",
+        "overviewRulerColor": "grey"
+    },
+  ],
+}

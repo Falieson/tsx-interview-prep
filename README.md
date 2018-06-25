@@ -12,9 +12,12 @@ Found at: `src/helpers/globals/`
 
 ### JS Demos
 
-- [ ] change console to output "[$level] $message"
+Found at: `src/helpers/examples/`
+
+- [x] `leveledConsole` changes console to output "[$level] $message"
+- [x]  `calledLC` vs `appliedLC` uses call vs apply
+- [ ] replace `console.log` w/ `leveledConsole`
 - [ ] shim bind for older browsers
-- [ ] using call vs apply
 - [ ] func() vs new func()
 
 ### JS Utilities
