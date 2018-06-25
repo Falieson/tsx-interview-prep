@@ -7,8 +7,8 @@ function decorate(arr: any[]): any {
   return res
 }
 
-describe('forEach2()', () => {
-  test('curries', () => {
+describe('.forEach2(cb)', () => {
+  test('works', () => {
     const data = [1, 2, 3, 4]
     const res: any[] = []
 

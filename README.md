@@ -4,8 +4,8 @@
 
 ### JS Globals
 
-- [ ] forEach
-- [ ] map
+- [x] forEach
+- [x] map
 - [ ] bind
 
 ### JS Demos
