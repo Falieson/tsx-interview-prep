@@ -4,15 +4,18 @@
 
 ### JS Globals
 
+Found at: `src/helpers/globals/`
+
 - [x] forEach
 - [x] map
-- [ ] bind
+- [x] bind
 
 ### JS Demos
 
 - [ ] change console to output "[$level] $message"
 - [ ] shim bind for older browsers
 - [ ] using call vs apply
+- [ ] func() vs new func()
 
 ### JS Utilities
 
