@@ -13,7 +13,8 @@ const filePaths = [
 ].join(' ')
 
 module.exports = {
-  default: 'jest',
+  default: 'jest -o', // test changed files
+  full: 'jest',
   update: 'jest -u',
   watch: 'chokidar '+filePaths+' -c \"nps test\" --initial --verbose',
 }

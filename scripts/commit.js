@@ -4,7 +4,7 @@ module.exports = {
   default    : series.nps('commit.pre', 'commit.zen'),
   pre  : {
     description: 'Run some stuff before committing',
-    default    : series.nps('lint', 'commit.pre.saveFixes', 'test'),
+    default    : series.nps('commit.pre.saveFixes', 'lint', 'test', 'commit.pre.saveFixes'),
     saveFixes  : 'git add .',
   },
   zen: {
