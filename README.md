@@ -18,17 +18,11 @@ Found at: `src/helpers/examples/`
 - [x]  `calledLC` vs `appliedLC` uses call vs apply
 - [ ] replace `console.log` w/ `leveledConsole`
 - [ ] shim bind for older browsers
-- [ ] func() vs new func()
 
-### JS Utilities
+### JS Algorithms
 
-- [ ] debounce
-- [ ] iterator
-- [ ] queAggregator
-
-### JS Search
-
-- [ ] Merge Sort
+- [x] Merge Sort: `src/helpers/sort/`
+- [ ] Graph Search
 
 ### JS Data Structures
 
@@ -38,8 +32,20 @@ Found at: `src/helpers/examples/`
 
 ### React GraphQL Demos
 
-- [ ] Tic-Tac-Toe game
+- [~] Tic-Tac-Toe game  `src/components/TicTacToe/README.md`
 - [ ] Minesweeper game
+
+### JS Utilities
+
+- [ ] debounce
+- [ ] iterator
+- [ ] memoizer
+- [ ] queAggregator
+- [ ] reverseWords
+- [ ] firstNonRepeatedChar
+- [ ] Fibonacci
+- [ ] Fizzbuzz
+- [ ] Array.isEqual()
 
 ## Utilities
 
