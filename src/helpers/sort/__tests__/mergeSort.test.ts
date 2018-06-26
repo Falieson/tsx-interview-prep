@@ -1,6 +1,6 @@
 import times from '../../globals/times'
 import getRandomInt from '../../math/getRandomInt'
-import MergeSort from '../mergeSort'
+import MergeSort from '../MergeSort'
 
 describe('mergeSort', () => {
   test('merges two arrays', () => {
