@@ -2,7 +2,7 @@ import Gx from 'gx'
 import * as React from 'react'
 import Helmet from 'react-helmet'
 
-import { LoginForm, RegisterForm } from '../../components/auth/'
+import { LoginForm, RegisterForm } from '../../components/auth'
 import './Entrance.css'
 
 function EntrancePage() {
