@@ -5,8 +5,16 @@ html {
 }
 
 body {
-  background-color: #333;
-  color: #EEE;
+  background-color: #fff;
+  color: rgb(39, 39, 39);
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:visited {
+  color: blue;
 }
 
 *,

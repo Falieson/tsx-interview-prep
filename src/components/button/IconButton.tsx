@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import Button, { buttonDefaults, IButton } from './'
+import Button, { buttonDefaults, IButton } from '.'
 
 interface IIconButton extends IButton {
   position: 'left' | 'right',

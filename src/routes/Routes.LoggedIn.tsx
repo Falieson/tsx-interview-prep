@@ -1,3 +1,11 @@
+/* Order of routing definitions
+  ---
+  exact=true  specific:  /accounts
+  exact=true  specific:  /accounts/:id/detail
+  exact=true  redirect:  /accounts/:id => /accounts/:id/detail
+  exact=false  ::nested:  /accounts/:id/[settings, dashboard, alerts]
+*/
+
 import * as React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
