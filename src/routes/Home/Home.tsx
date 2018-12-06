@@ -10,7 +10,6 @@ import ZipCar0 from '../../modules/zip-car-0/'
 
 import './Home.css'
 
-
 function HomeEntrancePage() {
   return (
     <div className="body--container">

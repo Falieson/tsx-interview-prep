@@ -4,7 +4,7 @@ module.exports = {
   },
   "setupTestFrameworkScriptFile": "<rootDir>/jest.setup.js",
   "testPathIgnorePatterns": ["/node_modules/", "/.reference/", "/build/", "/scripts/"],
-  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec)s?)\\.(jsx?|tsx?)$",
   "moduleFileExtensions": [
     "ts",
     "tsx",
