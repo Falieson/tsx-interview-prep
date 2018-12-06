@@ -11,9 +11,9 @@
 import CompactText from '.'
 
 describe('CompactText', () => {
-  test('automotive', () => {
-    const input = 'automotive'
-    const output = 'A6e'
+  test('Automotive', () => {
+    const input = 'Automotive'
+    const output = 'A8e'
     expect(CompactText(input)).toEqual(output)
   })
   test('1defabc1 cb!a %%%def1123', () => {

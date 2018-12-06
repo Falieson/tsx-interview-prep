@@ -11,19 +11,8 @@
 //   return
 // }
 
-// const isAlpha = new RegExp(/^[A-Za-z]+$/)
+const testAlpha = (letter: string) => new RegExp(/^[A-Za-z]+$/).test(letter)
 
 export default function CompactText(query: string) {
-  // const chars = query.split('')
-  const result = query
-
-  // const start = 0, end = 0, started = false
-  // chars.forEach((c, i) => {
-  //   if (isAlpha.test(c))) {
-
-  //   }
-  //   return
-  // })
-
-  return result
+  
 }
