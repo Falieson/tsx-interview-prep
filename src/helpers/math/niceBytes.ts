@@ -1,3 +1,4 @@
+// tslint:disable
 export default function niceBytes(x) {
   const units = ['bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB']
   return (() => {

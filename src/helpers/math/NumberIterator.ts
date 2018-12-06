@@ -1,3 +1,4 @@
+// tslint:disable
 export default  class NumberIterator {
   constructor({
     start = 0
