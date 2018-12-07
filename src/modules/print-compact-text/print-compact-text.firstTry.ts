@@ -31,7 +31,7 @@ export default function CompactText(query: string) {
     if (!started && isAlpha) {
       start = dex
       started = true
-    } else if(!started && !isAlpha){
+    } else if (!started && !isAlpha) {
       // isn't part of a word
       result += c
     }
@@ -45,21 +45,21 @@ export default function CompactText(query: string) {
     }
 
     // word goes to the end of the query
-    if(started && isLastCharOfQuery) {
+    if (started && isLastCharOfQuery) {
       end = dex
       isLastCharOfWord = true
     }
 
     // add the word compacted to the result
-    if(isLastCharOfWord) {
-      const partial = chars.join('').substr(start, end+1)
+    if (isLastCharOfWord) {
+      const partial = chars.join('').substr(start, end + 1)
       const f = partial.split('').shift()
       const l = start !== end ? partial.split('').pop() : ''
       const len = partial.length - `${f}${l}`.length > 0 ? partial.length - `${f}${l}`.length : 0
       // console.log(c, {partial, start,end, f, l, t: query.substr(start, end+1, len: partial.length)})
       result += `${f}${len}${l}`
 
-      if(!l && c) {
+      if (!l && c) {
         result += c
       }
     }
