@@ -1,6 +1,6 @@
 /*
 1. Each word in the input string is replaced with the following: the first letter of the word,
-the count of distinct (*unique*) letters between the first and last letter, and the last letter
+the count of distinct letters between the first and last letter, and the last letter
 of the word. For example, "Automotive" would be replaced by "A8e".
 
 2. A "word" is defined as a sequence of alphabetic characters, delimited by any non-alphabetic characters.
@@ -14,7 +14,7 @@ The problem is designed to take approximately 1-2 hours.
 
 const testAlpha = (letter: string) => new RegExp(/^[A-Za-z]+$/).test(letter)
 
-function uniqueLetterCount(word: string) {
+function distinctLetterCount(word: string) { // not unique b/c a is unique from A, but not distinct
   const letters: string[] = []
 
   word.toLowerCase().split('').forEach(c => {
@@ -35,7 +35,7 @@ function compactWord(_word: string) {
   const word = _word.split('')
   const first = word.splice(0, 1)
   const last = word.splice(-1, 1)
-  const len = uniqueLetterCount(word.join(''))
+  const len = distinctLetterCount(word.join(''))
 
   return `${first}${len}${last}`
 }
