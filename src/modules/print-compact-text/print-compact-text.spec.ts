@@ -13,7 +13,12 @@ import CompactText from '.'
 describe('CompactText', () => {
   test('Automotive', () => {
     const input = 'Automotive'
-    const output = 'A8e'
+    const output = 'A6e'
+    expect(CompactText(input)).toEqual(output)
+  })
+  test('zipPer', () => { // is p distinct from P? lets assume not, ie zipPer == zipper
+    const input = 'zipPer'
+    const output = 'z3r'
     expect(CompactText(input)).toEqual(output)
   })
   test('x', () => {
@@ -38,7 +43,7 @@ describe('CompactText', () => {
   })
   test('a hot character', () => {
     const input = 'a hot character'
-    const output = 'a0 h1t c7r'
+    const output = 'a0 h1t c6r'
     expect(CompactText(input)).toEqual(output)
   })
   test('tipu-is-smart', () => {
