@@ -23,12 +23,16 @@ function uniqueLetterCount(word: string) {
   return letters.length
 }
 function compactWord(_word: string) {
-  const word = _word.split('')
   // shouldn't happen
-  if (word.length <= 0) return ``
-  // if a word is only 1 char long it should be either just the char or char0
-  if (word.length === 1) return `${word.join('')}0`
+  if (_word.length <= 0) return ``
 
+  // if a word is only 1 char long it should be either:
+  //  just the char or char0, since we need to count the number between the first and last
+  //  it could be argued that without a last, and this being a 'text compacter'
+  //  that adding a 0 makes the result less compact. only 3 letter words should contain a 0
+  if (_word.length === 1) return _word
+
+  const word = _word.split('')
   const first = word.splice(0, 1)
   const last = word.splice(-1, 1)
   const len = uniqueLetterCount(word.join(''))
